@@ -12,8 +12,8 @@
 # Задача 4: Петя, Катя и Сережа делают из бумаги журавликов.
 
 # print("Введите общее количество журавликов: ")
-# sum = int(input())
-# petya = sum // 6 
+# summa = int(input())
+# petya = summa // 6 
 # sergey = petya
 # katya = petya*4
 # print (f"Петя - {petya},Катя - {katya},Сергей - {sergey}")
@@ -21,9 +21,9 @@
 # Задача 6: Счастливый билет. 385916 -> yes
 
 # print("Введите номер билета: ")
-# num = int(input())
-# left = (num // 100000 + (num // 10000 % 10) + (num // 1000 % 100 % 10))
-# right = (num % 1000 // 100 + (num % 1000 // 10 % 10) + (num % 1000 % 100 % 10))
+# number = int(input())
+# left = (number // 100000 + (number // 10000 % 10) + (number // 1000 % 100 % 10))
+# right = (number % 1000 // 100 + (number % 1000 // 10 % 10) + (number % 1000 % 100 % 10))
 # if left == right:
 #     print('Yes')
 # else: print ('No')
